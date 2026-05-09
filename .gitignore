@@ -1,0 +1,46 @@
+# ===========================
+# Python / FastAPI Backend
+# ===========================
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.env
+.env
+.env.*
+!.env.example
+
+# Database files (local only)
+*.db
+*.sqlite
+*.sqlite3
+tinydb_app.json
+
+# ===========================
+# Node.js / React Frontend
+# ===========================
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ===========================
+# IDE & OS
+# ===========================
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
