@@ -14,6 +14,7 @@ app = FastAPI(
 
 # Configure CORS for local development and common frontend ports
 origins = [
+     "https://taskmaster-pro-frontend.onrender.com",
     "http://localhost",
     "http://localhost:8000",
     "http://localhost:3000",  # React / Next.js default port
