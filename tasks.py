@@ -1,9 +1,9 @@
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status
 from tinydb import TinyDB, Query
-from .. import schemas
-from ..database import get_db
-from ..auth import get_current_user
+import schemas
+from database import get_db
+from auth import get_current_user
 from datetime import datetime, timezone
 
 router = APIRouter(
