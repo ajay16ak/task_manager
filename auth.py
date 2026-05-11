@@ -6,7 +6,8 @@ from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from tinydb import TinyDB, Query
-from . import database, schemas
+import database
+import schemas
 
 SECRET_KEY = os.environ.get("SECRET_KEY", "fallback-for-dev-only")
 ALGORITHM = "HS256"
