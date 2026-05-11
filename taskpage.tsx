@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'sonner';
-import { taskApi, type Task } from '../api';
+import { taskApi, type Task } from './api';
 
 const CATEGORIES = ["General", "Work", "Personal", "Urgent", "Shopping", "Health"];
 
