@@ -4,7 +4,7 @@ import { Home, LayoutDashboard, LogOut, User as UserIcon } from 'lucide-react';
 import TasksPage from './pages/taskpage';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import { useAuth } from './context/AuthContext';
+import { useAuth } from './AuthContext';
 
 import { Toaster } from 'sonner';
 
