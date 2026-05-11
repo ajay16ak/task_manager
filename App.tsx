@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { Home, LayoutDashboard, LogOut, User as UserIcon } from 'lucide-react';
-import TasksPage from './pages/taskpage';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import TasksPage from './taskpage';
+import Login from './Login';
+import Register from './Register';
 import { useAuth } from './AuthContext';
 
 import { Toaster } from 'sonner';
